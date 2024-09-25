@@ -1,0 +1,48 @@
+.form_input .label {
+  font-weight: 600;
+}
+
+.form_input .input {
+  border: #6a1b9a 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form_input .input {
+  border: #6a1b9a 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.form_input .input:focus-within {
+  border: #6a1b9a 2px solid;
+}
+
+.form_input .input input {
+  width: 100%;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+.form_input .input input::placeholder {
+  font-style: italic;
+  font-weight: 400;
+  color: #ce93d8;
+}
+
+.form_input .input input:focus {
+  outline: none;
+  border: none;
+}
+.form_input .input .fa-eye {
+  right: 20px;
+  top: 50px;
+  color: #ff6f00;
+  cursor: pointer;
+  visibility: hidden;
+}
