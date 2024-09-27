@@ -1,0 +1,21 @@
+/* * {
+  border: #4a148c solid 1px;
+} */
+.title {
+  width: 100%;
+  height: 50px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  color: white;
+}
+
+.content {
+  min-height: calc(100vh - 50px);
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
