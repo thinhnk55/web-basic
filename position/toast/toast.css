@@ -1,0 +1,27 @@
+.toast {
+  top: 55px;
+  width: 320px;
+  height: 75px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: white;
+  position: fixed;
+  right: -100%;
+  transition: right 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  border-left: 5px solid green;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.toast.show {
+  right: 5px;
+}
+
+.toast_icon {
+  font-size: 24px;
+  color: green;
+}
+.toast_text {
+  font-size: 16px;
+}
