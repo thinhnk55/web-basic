@@ -1,0 +1,40 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.button:active {
+  background-color: #004080;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px);
+}
+
+.box {
+  height: 0;
+  overflow: hidden;
+  background-color: green;
+  transition: height 0.3s ease-in-out;
+}
+
+.box.show {
+  height: 150px;
+  transition: height 0.3s ease-in-out;
+}
+
+.box .item {
+  height: 50px;
+  padding: 10px 20px;
+}
+.box .item:hover {
+  font-size: 1.1em;
+  background-color: #007bff;
+  cursor: pointer;
+}

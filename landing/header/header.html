@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login: Final</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../css/santize.css" />
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="header.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo"><i class="fa-solid fa-circle"></i></div>
+      <div class="menu">
+        <div class="item"><a href="#about">ABOUT</a></div>
+        <div class="item"><a href="#projects">PROJECTS</a></div>
+        <div class="item"><a href="#education">EDUCATION</a></div>
+      </div>
+      <div class="menu_mobile_button" id="open_sidebar_button">
+        <i id="open_sidebar_button_1" class="fa fa-bars"></i>
+        <i
+          id="open_sidebar_button_2"
+          class="fa-solid fa-x"
+          style="display: none"
+        ></i>
+      </div>
+    </header>
+    <div class="side_bar" id="side_bar">
+      <div class="item" onclick="closeSideBar()">
+        <a href="#about">ABOUT</a>
+      </div>
+      <div class="item" onclick="closeSideBar()">
+        <a href="#projects">PROJECTS</a>
+      </div>
+      <div class="item" onclick="closeSideBar()">
+        <a href="#education">EDUCATION</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
