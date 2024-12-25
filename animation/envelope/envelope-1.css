@@ -1,0 +1,35 @@
+.wrapper {
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  position: relative;
+}
+.envelope {
+  position: absolute;
+  border-top: 100px solid red;
+  border-bottom: 100px solid green;
+  border-right: 150px solid green;
+  border-left: 150px solid orange;
+}
+
+.lid {
+  position: absolute;
+  border-bottom: 100px solid transparent;
+  border-right: 150px solid transparent;
+  border-left: 150px solid transparent;
+  z-index: 1;
+  transform-origin: top;
+  transition: transform 0.25s linear;
+}
+
+/* Lid when closed */
+.lid.one {
+  border-top: 100px solid #ff87ef;
+  transform: rotateX(180deg);
+}
+
+/* Lid when closed */
+.lid.two {
+  border-top: 100px solid #ff87ef;
+  transform: rotateX(180deg);
+}

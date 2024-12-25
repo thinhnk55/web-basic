@@ -1,0 +1,54 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_col {
+  background-color: pink;
+}
+
+@media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about_intro {
+  background-color: #f7f9fb;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about_intro_image {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.about_detail {
+  background-color: #fef6ec;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_block {
+  width: fit-content;
+  background-color: var(--slate-50);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.about_row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

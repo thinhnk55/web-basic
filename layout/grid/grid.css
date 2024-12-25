@@ -1,0 +1,28 @@
+/* * {
+  border: 1px black solid;
+} */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col {
+  background-color: pink;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about_intro {
+  background-color: #f7f9fb;
+  height: 500px;
+  padding: 10px;
+}
+.about_detail {
+  background-color: #fef6ec;
+  height: 500px;
+  padding: 10px;
+}
